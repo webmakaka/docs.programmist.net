@@ -10,4 +10,11 @@ permalink: /
 
 Привет!  
 
-Увидел как бодро проект *craft создает с помощью ии агентов бесплатный клон Photoshop и решил поизучать язык программирования Rust. 
+Увидел как бодро команда storytold создает с помощью ИИ агентов бесплатный клон Photoshop и решил поизучать язык программирования Rust. 
+Да, чтобы научиться делать также. 
+
+Сейчас смотрю:  
+https://github.com/webmakaka/Rust-For-Programmers
+
+И читаю:  
+https://github.com/webmakaka/Code-Like-a-Pro-in-Rust
