@@ -1,5 +1,5 @@
 [Unit]
-Description=docs.gitops.ru
+Description=docs.programmist.info
 
 Requires=docker.service
 After=docker.service
@@ -8,14 +8,14 @@ After=docker.service
 
 Restart=always
 TimeoutStartSec=0
-ExecStartPre=-/usr/bin/docker kill docs.gitops.ru
-ExecStartPre=-/usr/bin/docker rm docs.gitops.ru
-ExecStartPre=-/usr/bin/docker pull marley/docs.gitops.ru:latest
-ExecStart=/bin/sh -c '/usr/bin/docker run --name docs.gitops.ru   \
+ExecStartPre=-/usr/bin/docker kill docs.programmist.info
+ExecStartPre=-/usr/bin/docker rm docs.programmist.info
+ExecStartPre=-/usr/bin/docker pull marley/docs.programmist.info:latest
+ExecStart=/bin/sh -c '/usr/bin/docker run --name docs.programmist.info   \
  -p 4006:80                        \
- marley/docs.gitops.ru'
-ExecStop=-/usr/bin/docker kill docs.gitops.ru
-ExecStop=-/usr/bin/docker rm docs.gitops.ru
+ marley/docs.programmist.info'
+ExecStop=-/usr/bin/docker kill docs.programmist.info
+ExecStop=-/usr/bin/docker rm docs.programmist.info
 
 [Install]
 WantedBy=multi-user.target

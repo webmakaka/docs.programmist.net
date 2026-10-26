@@ -1,4 +1,4 @@
-# Исходники сайта [docs.gitops.ru](https://docs.gitops.ru)
+# Исходники сайта [docs.programmist.info](https://docs.programmist.info)
 
 <br/>
 
@@ -10,8 +10,8 @@
 
 ```shell
 $ cd ~
-$ mkdir -p docs.gitops.ru && cd docs.gitops.ru
-$ git clone --depth=1 https://github.com/webmakaka/docs.gitops.ru.git .
+$ mkdir -p docs.programmist.info && cd docs.programmist.info
+$ git clone --depth=1 https://github.com/webmakaka/docs.programmist.info.git .
 $ docker-compose up
 ```
 
@@ -25,10 +25,10 @@ $ docker-compose up
 
 <br/>
 
-### Запустить docs.gitops.ru на своем хосте с использованием docker контейнера:
+### Запустить docs.programmist.info на своем хосте с использованием docker контейнера:
 
 ```shell
-$ docker run -i -t -p 80:80 --name docs.gitops.ru marley/docs.gitops.ru
+$ docker run -i -t -p 80:80 --name docs.programmist.info marley/docs.programmist.info
 ```
 
 <br/>
@@ -36,15 +36,15 @@ $ docker run -i -t -p 80:80 --name docs.gitops.ru marley/docs.gitops.ru
 ### Как сервис
 
 ```shell
-$ sudo vi /etc/systemd/system/docs.gitops.ru.service
+$ sudo vi /etc/systemd/system/docs.programmist.info.service
 ```
 
-вставить содержимое файла docs.gitops.ru.service
+вставить содержимое файла docs.programmist.info.service
 
 ```shell
-$ sudo systemctl enable docs.gitops.ru.service
-$ sudo systemctl start  docs.gitops.ru.service
-$ sudo systemctl status docs.gitops.ru.service
+$ sudo systemctl enable docs.programmist.info.service
+$ sudo systemctl start  docs.programmist.info.service
+$ sudo systemctl status docs.programmist.info.service
 ```
 
 http://localhost:4006
@@ -57,5 +57,5 @@ http://localhost:4006
 
 **Marley**
 
-Any questions in english: <a href="https://docs.gitops.ru/chat/">Telegram Chat</a>  
-Любые вопросы на русском: <a href="https://docs.gitops.ru/chat/">Телеграм чат</a>
+Any questions in english: <a href="https://docs.programmist.info/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://docs.programmist.info/chat/">Телеграм чат</a>

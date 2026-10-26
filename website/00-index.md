@@ -1,35 +1,35 @@
 ---
 layout: page
-title: GitOps
+title: Programmist
 permalink: /
 ---
 
-# GitOps
+# Programmist
 
 <br/>
 
 Привет!  
-Если копаете тему devops / gitops / secops / sysops / mlops / aiops и д.р., давайте обсуждать и делиться знаниями.  
+Если копаете тему devops / Programmist / secops / sysops / mlops / aiops и д.р., давайте обсуждать и делиться знаниями.  
 Группа в телеграм https://t.me/techline_ru
 
 Можете предложить что-то интересное для изучения!
 
 <br/>
 
-![What is GitOps](/img/gitops.png 'What is GitOps'){: .center-image }
+![What is Programmist](/img/Programmist.png 'What is Programmist'){: .center-image }
 
 <!-- <br/>
 <br/>
 
-### [[Book][Md Nahidul Kibria] Argo CD and Argo Workflows on Kubernetes: GitOps, workflow automation, and progressive delivery with Argo Rollouts [ENG, 2025]](/books/containers/kubernetes/utils/ci-cd/argo-cd/argocd-up-and-running/)
+### [[Book][Md Nahidul Kibria] Argo CD and Argo Workflows on Kubernetes: Programmist, workflow automation, and progressive delivery with Argo Rollouts [ENG, 2025]](/books/containers/kubernetes/utils/ci-cd/argo-cd/argocd-up-and-running/)
 
 <br/>
 
-![Argo CD and Argo Workflows on Kubernetes: GitOps, workflow automation, and progressive delivery with Argo Rollouts ](/img/books/covers/argo-cd-and-argo-workflows-on-kubernetes.jpg 'Argo CD and Argo Workflows on Kubernetes: GitOps, workflow automation, and progressive delivery with Argo Rollouts '){: .center-image } -->
+![Argo CD and Argo Workflows on Kubernetes: Programmist, workflow automation, and progressive delivery with Argo Rollouts ](/img/books/covers/argo-cd-and-argo-workflows-on-kubernetes.jpg 'Argo CD and Argo Workflows on Kubernetes: Programmist, workflow automation, and progressive delivery with Argo Rollouts '){: .center-image } -->
 
 <br/>
 
-### [[Book][Natale Vinto] GitOps Cookbook: Kubernetes Automation in Practice [ENG, 2023]](/books/gitops/gitops-cookbook/)
+### [[Book][Natale Vinto] Programmist Cookbook: Kubernetes Automation in Practice [ENG, 2023]](/books/Programmist/Programmist-cookbook/)
 
 <br/>
 
@@ -37,7 +37,7 @@ permalink: /
 
 <br/>
 
-[![GitOps Cookbook](/img/books/covers/gitops-cookbook-kubernetes-automation.jpg 'GitOps Cookbook'){: .center-image }](/books/gitops/gitops-cookbook/)
+[![Programmist Cookbook](/img/books/covers/Programmist-cookbook-kubernetes-automation.jpg 'Programmist Cookbook'){: .center-image }](/books/Programmist/Programmist-cookbook/)
 
 <br/>
 
@@ -49,7 +49,7 @@ permalink: /
 
 <br/>
 
-### [YouTube] What is GitOps, How GitOps works and Why it's so useful [ENG]
+### [YouTube] What is Programmist, How Programmist works and Why it's so useful [ENG]
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/f5EpcWp0THw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
