@@ -1,12 +1,12 @@
 # Site settings
-title: docs.programmist.info на русском языке
+title: docs.programmist.net на русском языке
 
 description: Собираем материалы по развертыванию приложений с помощью самых современных инструментова автоматизации
 
 keywords: Programmist, DevOps, SRE, Clouds, Linux, Docker, Kubernetes, Git, FluxCD, ArgoCD
 
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'https://docs.programmist.info' # the base hostname & protocol for your site
+url: 'https://docs.programmist.net' # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

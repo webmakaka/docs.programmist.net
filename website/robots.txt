@@ -5,5 +5,5 @@ permalink: robots.txt
 
 User-agent: *
 Allow: /
-Host: https://docs.programmist.info
-Sitemap: https://docs.programmist.info/sitemap.xml
+Host: https://docs.programmist.net
+Sitemap: https://docs.programmist.net/sitemap.xml

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Programmist
+title: Программист
 permalink: /
 ---
 
-# Programmist
+# Программист
 
 <br/>
 

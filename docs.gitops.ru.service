@@ -1,5 +1,5 @@
 [Unit]
-Description=docs.programmist.info
+Description=docs.programmist.net
 
 Requires=docker.service
 After=docker.service
@@ -8,14 +8,14 @@ After=docker.service
 
 Restart=always
 TimeoutStartSec=0
-ExecStartPre=-/usr/bin/docker kill docs.programmist.info
-ExecStartPre=-/usr/bin/docker rm docs.programmist.info
-ExecStartPre=-/usr/bin/docker pull marley/docs.programmist.info:latest
-ExecStart=/bin/sh -c '/usr/bin/docker run --name docs.programmist.info   \
+ExecStartPre=-/usr/bin/docker kill docs.programmist.net
+ExecStartPre=-/usr/bin/docker rm docs.programmist.net
+ExecStartPre=-/usr/bin/docker pull marley/docs.programmist.net:latest
+ExecStart=/bin/sh -c '/usr/bin/docker run --name docs.programmist.net   \
  -p 4006:80                        \
- marley/docs.programmist.info'
-ExecStop=-/usr/bin/docker kill docs.programmist.info
-ExecStop=-/usr/bin/docker rm docs.programmist.info
+ marley/docs.programmist.net'
+ExecStop=-/usr/bin/docker kill docs.programmist.net
+ExecStop=-/usr/bin/docker rm docs.programmist.net
 
 [Install]
 WantedBy=multi-user.target

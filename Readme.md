@@ -1,4 +1,4 @@
-# Исходники сайта [docs.programmist.info](https://docs.programmist.info)
+# Исходники сайта [docs.programmist.net](https://docs.programmist.net)
 
 <br/>
 
@@ -10,8 +10,8 @@
 
 ```shell
 $ cd ~
-$ mkdir -p docs.programmist.info && cd docs.programmist.info
-$ git clone --depth=1 https://github.com/webmakaka/docs.programmist.info.git .
+$ mkdir -p docs.programmist.net && cd docs.programmist.net
+$ git clone --depth=1 https://github.com/webmakaka/docs.programmist.net.git .
 $ docker-compose up
 ```
 
@@ -25,10 +25,10 @@ $ docker-compose up
 
 <br/>
 
-### Запустить docs.programmist.info на своем хосте с использованием docker контейнера:
+### Запустить docs.programmist.net на своем хосте с использованием docker контейнера:
 
 ```shell
-$ docker run -i -t -p 80:80 --name docs.programmist.info marley/docs.programmist.info
+$ docker run -i -t -p 80:80 --name docs.programmist.net marley/docs.programmist.net
 ```
 
 <br/>
@@ -36,15 +36,15 @@ $ docker run -i -t -p 80:80 --name docs.programmist.info marley/docs.programmist
 ### Как сервис
 
 ```shell
-$ sudo vi /etc/systemd/system/docs.programmist.info.service
+$ sudo vi /etc/systemd/system/docs.programmist.net.service
 ```
 
-вставить содержимое файла docs.programmist.info.service
+вставить содержимое файла docs.programmist.net.service
 
 ```shell
-$ sudo systemctl enable docs.programmist.info.service
-$ sudo systemctl start  docs.programmist.info.service
-$ sudo systemctl status docs.programmist.info.service
+$ sudo systemctl enable docs.programmist.net.service
+$ sudo systemctl start  docs.programmist.net.service
+$ sudo systemctl status docs.programmist.net.service
 ```
 
 http://localhost:4006
@@ -57,5 +57,5 @@ http://localhost:4006
 
 **Marley**
 
-Any questions in english: <a href="https://docs.programmist.info/chat/">Telegram Chat</a>  
-Любые вопросы на русском: <a href="https://docs.programmist.info/chat/">Телеграм чат</a>
+Any questions in english: <a href="https://docs.programmist.net/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://docs.programmist.net/chat/">Телеграм чат</a>
