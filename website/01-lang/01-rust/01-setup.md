@@ -13,11 +13,16 @@ permalink: /lang/rust/setup/
 <br/>
 
 **Делаю:**  
-2024.09.28
+2026.10.26
 
 <br/>
 
-```
+**Вариант IDE на Rust:**  
+https://zed.dev/
+
+<br/>
+
+```shell
 $ cd ~/tmp/
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -28,20 +33,20 @@ $ rustup update
 
 <br/>
 
-```
+```shell
 $ rustc --version
-rustc 1.81.0 (eeb90cda1 2024-09-04)
+rustc 1.99.1 (58cf8f9c3 2026-10-13)
 
 $ cargo --version
-cargo 1.81.0 (2dbb1af80 2024-08-20)
+cargo 1.99.1 (5f94df478 2026-08-27)
 
 $ rustup --version
-rustup 1.27.1 (54dd3d00f 2024-04-24)
+rustup 1.29.2 (d8c92c676 2026-10-21)
 ```
 
 <br/>
 
-```
+```shell
 $ rustup show
 Default host: x86_64-unknown-linux-gnu
 rustup home:  /home/marley/.rustup
@@ -52,7 +57,7 @@ rustc 1.81.0 (eeb90cda1 2024-09-04)
 
 <br/>
 
-```
+```shell
 // Использовать последнюю версию rust
 // $ rustup override set nightly
 
@@ -66,7 +71,7 @@ $ rustup override set stable
 
 <br/>
 
-```
+```shell
 // Linting
 $ rustup component add clippy
 
@@ -76,7 +81,7 @@ $ rustup component add rustfmt
 
 <br/>
 
-```
+```shell
 // Monitors your source code to trigger commands every time a file changes
 $ cargo install cargo-watch
 
@@ -96,7 +101,7 @@ https://github.com/rust-analyzer/rust-analyzer
 
 <br/>
 
-```
+```shell
 $ cd ~/apps/
 $ git clone https://github.com/rust-analyzer/rust-analyzer
 $ cd rust-analyzer/
@@ -107,9 +112,9 @@ $ cargo xtask install --server
 
 <br/>
 
-```
+```shell
 $ rust-analyzer --version
-rust-analyzer 0.0.0 (546339a7b 2024-09-27)
+rust-analyzer 0.0.0 (0c4d74686b 2026-10-22)
 ```
 
 <br/>
@@ -118,7 +123,7 @@ rust-analyzer 0.0.0 (546339a7b 2024-09-27)
 
 <br/>
 
-```
+```shell
 Ctrl+P
 
 // rust-analyzer
