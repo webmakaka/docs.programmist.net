@@ -127,16 +127,16 @@ rust-analyzer 0.0.0 (6e37b2d621 2026-11-05)
 Ctrl+P
 
 // rust-analyzer
-ext install rust-lang.rust-analyzer
+code --install-extension rust-lang.rust-analyzer
 
 // CodeLLDB
-ext install vadimcn.vscode-lldb
+code --install-extension vadimcn.vscode-lldb
 
 // crates
-ext install serayuzgur.crates
+code --install-extension serayuzgur.crates
 
 // Even Better TOML
-ext install tamasfe.even-better-toml
+code --install-extension tamasfe.even-better-toml
 ```
 
 <br/>
