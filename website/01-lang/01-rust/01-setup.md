@@ -102,7 +102,7 @@ https://github.com/rust-analyzer/rust-analyzer
 <br/>
 
 ```shell
-$ cd ~/apps/
+$ cd ~/tmp/
 $ git clone https://github.com/rust-analyzer/rust-analyzer
 $ cd rust-analyzer/
 
@@ -113,8 +113,8 @@ $ cargo xtask install --server
 <br/>
 
 ```shell
-$ rust-analyzer --version
-rust-analyzer 0.0.0 (0c4d74686b 2026-10-22)
+$ $ rust-analyzer --version
+rust-analyzer 0.0.0 (6e37b2d621 2026-11-05)
 ```
 
 <br/>
